@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 139 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-119.643,-323.306)">
+        <g transform="matrix(1,0,0,1,-3.22781,126.475)">
+            <text x="164.989px" y="251.433px" style="font-family:'Ubuntu-Bold', 'Ubuntu', sans-serif;font-weight:700;font-size:36px;fill:rgb(255,184,0);">Block</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-46.3057,90.4965)">
+            <text x="164.989px" y="251.433px" style="font-family:'Ubuntu-Medium', 'Ubuntu', sans-serif;font-weight:500;font-size:24px;fill:white;">around</text>
+            <text x="164.989px" y="276.105px" style="font-family:'Ubuntu-Medium', 'Ubuntu', sans-serif;font-weight:500;font-size:24px;fill:white;">the</text>
+        </g>
+    </g>
+</svg>

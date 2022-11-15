@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #171717;
+
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row > p {
+  margin-right: 8px;
+}
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 20%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form > input {
+  margin-bottom: 24px;
+}
+.form > button {
+  margin: 8px 0 24px 0;
+}
+.inpt {
+  background-color: white;
+  border: solid #171717 1px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+  padding: 0 10px;
+  width: 300px;
+}
+.textarea {
+  margin: 24px 0;
+  width: 100%;
+  height: 10rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  /* font-size: 14px; */
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background-color: #FFB800;
+}
+.btn:hover {
+  background-color: #ffb700e3;  
+  cursor: pointer;
+}
+.btn-cat {
+  border: solid #171717 1px;
+  background-color: none;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+.btn-cat:hover {
+  cursor: pointer;
+  background-color: #171717;
+  color: white;
+}
+.btn-filter {
+  border: solid #FFB800 1px;
+  color: #FFB800;
+  background-color: none;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+.btn-filter:hover {
+  cursor: pointer;
+  background-color: #FFB800;
+  color: white;
+}
+.divider {
+  border: solid #171717 0.5px;
+  margin: 2rem 0;
+}
+@media (prefers-color-scheme: dark) {
+  .btn {
+    color: #171717;
+  }
+  .btn-cat {
+    border: solid white 1px;
+  }
+  .btn-cat:hover {
+    background-color: white;
+    color: #171717;
+  }
+  .btn-filter:hover {
+    color: black;
+  }
+  .inpt {
+    border: solid white 1px;
+    background-color: #171717;
+  }
+  .divider {
+    border: solid white 0.5px;
+  }
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #171717;
+  }
+}

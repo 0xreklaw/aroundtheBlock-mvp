@@ -1,0 +1,3 @@
+export const LOCATIONS = "LOCATIONS";
+export const EVENTLIST = "EVENTLIST";
+export const SELECTED_EVENT = "SELECTED_EVENT";

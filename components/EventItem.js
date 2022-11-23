@@ -21,7 +21,7 @@ const EventItem = ({ metadata, getLocationByName, getCategoryByName, formatedDat
                     return <p key={index} className="btn-cat" style={{marginRight: "12px"}}>{getCategoryByName(parseInt(category))}</p>
                 })}
             </div>
-            <p>{formatedDate(date)}</p>
+            <p className="date">{formatedDate(date)}</p>
             <Link className="btn" href={`/events/${id}`}>View</Link>
         </div>
     )

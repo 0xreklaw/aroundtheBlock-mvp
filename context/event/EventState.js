@@ -76,9 +76,9 @@ const EventState = props => {
             case 9:
                 return "Raleigh";
             case 10:
-                return "Charlotte"
+                return "Charlotte";
             case 11:
-                return "Virtual"
+                return "Virtual";
             default:
                 return ""
         }

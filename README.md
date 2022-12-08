@@ -1,4 +1,4 @@
-# aroundtheBlock-mvp
+# Around the Block (MVP)
 
 Around the Block is a blockchain events aggregator website.
 

@@ -8,7 +8,7 @@ const Header = () => {
             <Link href="/" className={styles.logo} />
 
             <div className={styles.nav}>
-                <a href="https://discord.gg/zajNhRsxzG" >Discord</a>
+                <a href="https://discord.gg/RqUQSEajPU" >Discord</a>
                 <Link href="/list-event">List Event</Link>
             </div>
         </div>

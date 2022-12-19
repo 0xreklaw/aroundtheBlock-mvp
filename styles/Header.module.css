@@ -16,15 +16,13 @@
 
 .logo {
     width: 120px;
-    height: auto;
+    height: 40px;
     display: block;
     background: url(../assets/logo_light.svg) no-repeat left;
 }
 
 @media (prefers-color-scheme: dark) {
     .logo {
-        /* width: 120px;
-        height: auto; */
         height: 40px;
         display: block;
         background: url(../assets/logo_dark.svg) no-repeat left;

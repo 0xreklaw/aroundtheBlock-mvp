@@ -10,7 +10,6 @@ const EventsList = ({ locationFilter }) => {
         getEventList();
     }, [])
 
-    console.log(eventList)
     return (
         <div>
             {

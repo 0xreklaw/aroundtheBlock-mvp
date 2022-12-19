@@ -5,6 +5,7 @@ const ListEventPage = () => {
 
     return (
         <Layout>
+            <h1 className='title'>List an Event</h1>
             {
                 isLoading ? <p>Loading...</p>
                 : 

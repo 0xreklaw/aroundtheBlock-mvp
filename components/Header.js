@@ -9,6 +9,7 @@ const Header = () => {
 
             <div className={styles.nav}>
                 <a href="https://discord.gg/RqUQSEajPU" >Discord</a>
+                <Link href="/about">About</Link>
                 <Link href="/list-event">List Event</Link>
             </div>
         </div>
